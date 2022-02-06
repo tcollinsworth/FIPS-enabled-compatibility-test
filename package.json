@@ -1,0 +1,20 @@
+{
+  "name": "md5-fips-test",
+  "version": "1.0.0",
+  "description": "compatibility test",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "author": "Troy Collinsworth",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "blueimp-md5": "^2.19.0",
+    "md5": "^2.3.0",
+    "md5-hex": "^4.0.0",
+    "md5-o-matic": "^0.1.1",
+    "spark-md5": "^3.0.2"
+  }
+}
